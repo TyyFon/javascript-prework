@@ -11,7 +11,6 @@ if(randomNumber == 1) {
     }
 }
 console.log('cpu move is ' + computerMove);
-
 let playerInput = prompt('Wybierz swój ruch! 1: kamień, 2: papier, 3:nożyce');
 console.log('player input is ' + playerInput);
 let playerMove = 'Nieznany ruch';
@@ -55,7 +54,7 @@ if(computerMove == 'kamień' && playerMove == 'kamień') {
                             if(computerMove == 'nożyce' && playerMove == 'nożyce') {
                                 printMessage('Remis!');
                             } else {
-                                printMessage('Wykonałeś niedozwolony ruch - wybierz 1 lub 2 lub 3')
+                                printMessage('Wykonałeś niedozwolony ruch - wybierz 1 lub 2 lub 3');
                             }
                         }
                     }
